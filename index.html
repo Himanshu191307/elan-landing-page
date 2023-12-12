@@ -45,7 +45,7 @@
    <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'AW-10891186410'); </script>
    <style>
       .bg-golden {
-         background-color: rgba(211, 184, 77, 1);
+         background-color: rgb(0, 0, 0);
          /* You can replace 'goldenrod' with your desired golden color */
       }
 
@@ -130,6 +130,12 @@
       .navbar {
          z-index: 1000;
       }
+
+      .nav-item .nav-link {
+         font-size: 13px;
+         margin: 5px;
+         color: #fff !important;
+      }
    </style>
 
    <div class="right-buttion" id='backToTop'>
@@ -140,7 +146,9 @@
 <body>
    <nav class="navbar navbar-expand-lg navbar-light bg-golden">
       <div class="container">
-         <a class="navbar-brand" href="#">Navbar</a>
+         <h4 style="color: #d3b843; font-weight: bold; font-size: 30px;">Elan</h4>
+         <!-- <img src="elan-img/logo.png" class="img-fluid" alt="Responsive image"> -->
+         <!-- <a class="navbar-brand" href="#">Navbar</a> -->
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -168,12 +176,16 @@
 
                   </a>
                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-               <li class="nav-item active navbar-nav mr-auto">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+               <li class="nav-item">
+                  <a class="nav-link" href="#contact_us">Contact Us
+
+                  </a>
                </li>
-            </form>
+            </ul>
+            <button style="font-size:20px;border-radius: 10px;background-color: #d3b843;color: #fff;"><i
+                  class="fa fa-phone"> 9077390773</i></button>
+            <button style="font-size:20px;border-radius: 10px;background-color: #d3b843;color: #fff;"><i
+                  class="fa fa-phone"> 9090880000</i></button>
          </div>
       </div>
    </nav>
@@ -568,7 +580,72 @@
          </div>
       </div>
    </section>
+   <center>
+      <div class="container" id="contact_us">
+         <div class="col-lg-8 col-md-8 col-sm-12" id="form" style="margin-top: 80px;">
+            <div class="bg-white  shadow formstyle">
+               <h5 class="text-capitalize formhead text-white" style="text-align: center;">Contact Us</h5>
+               <h5 class="text-capitalize formhead text-white" style="text-align: center;">Interested? Schedule A Free
+                  Site Visit</h5>
+               <h5 class="text-capitalize formhead text-white" style="text-align: center;">Phone No: 9077390773 ;
+                  9090880000</h5>
+               <h5 class="text-white emails" style="text-align: center;">Email:Sale@elanlunch.com</h5>
 
+               <form role="form" action="https://www.quickpropertyfinder.com/toi-campaigns/timesmail.php" method="Post"
+                  name="leadforms" autocomplete="off" id="leadforms" data-parsley-validate="">
+                  <div class="row mt-4">
+                     <div class="col-lg-12">
+                        <div class="form-group mb-4">
+                           <input type="hidden" name="page_url" value="<?=$pageurl?>">
+                           <input type="hidden" name="sources" value="Mahagun Medalleo">
+
+                           <input name="name" id="name3" type="text" class="form-control" placeholder="Enter Name"
+                              required>
+                        </div>
+                     </div>
+                     <!--end col-->
+                     <div class="col-lg-12">
+                        <div class="form-group mb-4">
+
+                           <input type="email" id="email3" class="form-control" data-parsley-trigger="change"
+                              required="" title="Incorrect Email" placeholder="Enter Email" name="email" required>
+                        </div>
+                     </div>
+                     <!--end col-->
+                     <div class="col-md-12">
+                        <div class="form-group mb-4">
+
+                           <input name="phone" id="number" type="tel" minlength="10" maxlength="10"
+                              data-parsley-trigger="keyup" data-parsley-validation-threshold="1"
+                              data-parsley-debounce="500" data-parsley-type="digits" data-parsley-minlength="10"
+                              data-parsley-maxlength="10" class="form-control" placeholder="Enter Phone Number"
+                              required>
+                        </div>
+                     </div>
+                     <div class="col-md-12">
+                        <div class="form-check form-group mb-2">
+                           <input class="form-check-input" type="checkbox" id="check1" name="loan_required"
+                              value="Loan Required" checked="" data-parsley-multiple="loan_required">
+                           <label class="form-check-label text-white">Looking for a Home Loan?</label>
+                        </div>
+                     </div>
+                     <div class="col-lg-12 mb-0 testi">
+                        <p>By submitting, I agree to Times Property T&amp;C*</p>
+                     </div>
+                     <!--end col-->
+                     <!--  <div class="col-lg-12 mb-0"> -->
+                     <button class="btn bttn btn-block submit" name="submit" type="submit"
+                        style="border-radius: 0px;">Submit</button>
+                     <!--   </div> -->
+                     <!--end col-->
+                  </div>
+                  <!--end row-->
+               </form>
+               <!--end form-->
+            </div>
+         </div>
+      </div>
+   </center>
    <section>
       <div class="container paddingbottom">
          <div class="container pt-5">
@@ -587,44 +664,7 @@
             </div>
          </div>
    </section>
-   <!-- <section class="contact_us">
-      <div class="container">
-         <div class="row">
-            <div class="col-md-10 offset-md-1">
-               <div class="contact_inner">
-                  <div class="row">
-                     <div class="col-md-10">
-                        <div class="contact_form_inner">
-                           <div class="contact_field">
-                              <h3>Contatc Us</h3>
-                              <p>Feel Free to contact us any time. We will get back to you as soon as we can!.</p>
-                              <input type="text" class="form-control form-group" placeholder="Name" />
-                              <input type="text" class="form-control form-group" placeholder="Email" />
-                              <textarea class="form-control form-group" placeholder="Message"></textarea>
-                              <button class="contact_form_submit">Send</button>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="contact_info_sec">
-                        <h4 class="text-white">Contact Info</h4>
-                        <div class="d-flex info_single align-items-center">
-                           <i class="fas fa-headset"></i>
-                           <span class="text-white">+91 9077390773</span>
-                        </div>
-                        <div class="d-flex info_single align-items-center">
-                           <i class="fas fa-headset"></i>
-                           <span class="text-white">+91 9090880000</span>
-                        </div>
-                        <div class="d-flex info_single align-items-center">
-                           <i class="fas fa-envelope-open-text"></i>
-                           <span class="text-white">sales@elanlaunch.com</span>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-   </section> -->
+
    <footer class="footer-copyrite" style="overflow: hidden;">
       <div class="container">
          <div class="footer-copy text-center"
