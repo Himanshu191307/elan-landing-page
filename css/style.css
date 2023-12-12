@@ -2589,3 +2589,52 @@ button.contact_form_submit {
 	border-radius: 30px;
 	overflow: hidden;
 }
+
+.half-fluid {
+	padding: 20px;
+
+	.left-half,
+	.right-half {
+		left: 50%;
+		margin-left: -50vw;
+		max-width: 100vw;
+		position: relative;
+		right: 50%;
+		width: 100vw;
+		padding: 0px;
+	}
+
+
+	.image {
+		background-image: url("https://res.cloudinary.com/dmlflkbrx/image/upload/v1700548580/UNGA_lideu0_fsqqie_wef8vk_wslfer_zi5hjt_sh3a5l_tcujbx.jpg");
+		background-size: cover;
+		background-position: center;
+		/* min-height: 400px; */
+		height: 90%;
+		width: 90%;
+		border-radius: 10px;
+	}
+}
+
+@media (min-width: 992px) {
+
+	.half-fluid {
+		.left-half {
+			padding-left: 0 !important;
+			position: absolute;
+			left: 0;
+			right: 50%;
+			margin-left: auto;
+			width: auto;
+		}
+
+		.right-half {
+			padding-right: 0 !important;
+			position: absolute;
+			right: 0;
+			left: 50%;
+			margin-left: auto;
+			width: auto;
+		}
+	}
+}
