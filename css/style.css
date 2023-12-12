@@ -153,7 +153,7 @@ body {
 }
 
 .bgpurpal {
-	background-color: #d19755 !important;
+	background-color: #d1cf55 !important;
 }
 
 .section4 {
@@ -2606,7 +2606,7 @@ button.contact_form_submit {
 
 
 	.image {
-		background-image: url("https://res.cloudinary.com/dmlflkbrx/image/upload/v1700548580/UNGA_lideu0_fsqqie_wef8vk_wslfer_zi5hjt_sh3a5l_tcujbx.jpg");
+		background-image: url("https://res.cloudinary.com/dmlflkbrx/image/upload/v1702371680/520010-PJ0495-104_iltdbh.jpg");
 		background-size: cover;
 		background-position: center;
 		/* min-height: 400px; */
@@ -2637,4 +2637,16 @@ button.contact_form_submit {
 			width: auto;
 		}
 	}
+}
+
+.text-roi {
+	/* text-align: center; */
+	margin-bottom: 30px;
+	font-size: 40px;
+	color: red;
+}
+
+.bg-golden {
+	background-color: goldenrod;
+	/* You can replace 'goldenrod' with your desired golden color */
 }

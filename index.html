@@ -44,6 +44,11 @@
    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10891186410"></script>
    <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'AW-10891186410'); </script>
    <style>
+      .bg-golden {
+         background-color: rgba(211, 184, 77, 1);
+         /* You can replace 'goldenrod' with your desired golden color */
+      }
+
       .popupform h4 {
          font-size: 19px;
          color: #fff;
@@ -133,7 +138,7 @@
 </head>
 
 <body>
-   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+   <nav class="navbar navbar-expand-lg navbar-light bg-golden">
       <div class="container">
          <a class="navbar-brand" href="#">Navbar</a>
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -147,27 +152,27 @@
                   <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-               </li>
-               <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                     aria-haspopup="true" aria-expanded="false">
-                     Dropdown
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                     <a class="dropdown-item" href="#">Action</a>
-                     <a class="dropdown-item" href="#">Another action</a>
-                     <div class="dropdown-divider"></div>
-                     <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
+                  <a class="nav-link" href="#amenities">Amenities</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link disabled" href="#">Disabled</a>
+                  <a class="nav-link" href="#highlights">Highlights</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#price_list">Price List</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#ROI">Return on Investment</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#location">Location
+
+                  </a>
                </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
-               <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-               <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+               <li class="nav-item active navbar-nav mr-auto">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+               </li>
             </form>
          </div>
       </div>
@@ -290,7 +295,7 @@
          </div>
       </div>
    </section>
-   <section class="what-will-learn-m" id="SECTION2" style="
+   <section class="what-will-learn-m" id="amenities" style="
          background: url('elan-img/The\ Elan\ \(6\).png');overflow: hidden;">
       <div class="container">
          <div class="row ">
@@ -382,7 +387,7 @@
       </div>
    </section>
 
-   <section class="what-will-learn-m" id="SECTION2" style="
+   <section class="what-will-learn-m" id="highlights" style="
          background: url('images/gallery-122.jpg');overflow: hidden;">
       <div class="container">
          <div class="row ">
@@ -441,7 +446,7 @@
    </section>
 
    <!-- price section -->
-   <section class="what-will-learn-m" id="SECTION2" style="
+   <section class="what-will-learn-m" id="price_list" style="
    background: url('elan-img/The\ Elan\ \(6\).png');overflow: hidden;">
       <div class="container">
          <div class="row ">
@@ -482,7 +487,7 @@
          </div>
       </div>
    </section>
-   <section>
+   <section id="ROI">
       <div class="container-fluid position-relative half-fluid">
          <div class="container">
             <div class="row">
@@ -496,6 +501,7 @@
 
                <!-- Text -->
                <div class="col-lg-6 py-5 pe-lg-5">
+                  <h2 class="text-roi">Return On Investment</h2>
                   <h5 class="mb-4">Investing in Elan Sector 82 Gurgaon isn't just an investment; it's a journey into
                      unprecedented
                      success.
@@ -534,7 +540,7 @@
          </div>
       </div>
    </section>
-   <section>
+   <section id="location">
       <div class="container pt-5">
          <div class="row">
             <div class="col-md-12">
@@ -581,7 +587,7 @@
             </div>
          </div>
    </section>
-   <section class="contact_us">
+   <!-- <section class="contact_us">
       <div class="container">
          <div class="row">
             <div class="col-md-10 offset-md-1">
@@ -618,7 +624,7 @@
                </div>
             </div>
          </div>
-   </section>
+   </section> -->
    <footer class="footer-copyrite" style="overflow: hidden;">
       <div class="container">
          <div class="footer-copy text-center"
