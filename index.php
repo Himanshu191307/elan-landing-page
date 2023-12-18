@@ -1,0 +1,913 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <title>Elan Limited</title>
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+   <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link rel="stylesheet" href="owl-c/owl.carousel.min.css">
+   <link rel="stylesheet" href="owl-c/owl.theme.default.min.css">
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,300;1,100&family=Montserrat+Subrayada:wght@400;700&family=Montserrat:wght@200;400&display=swap"
+      rel="stylesheet">
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-251345111-2"></script>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Montserrat:ital,wght@0,300;0,400;1,300&family=Oswald:wght@400;500&family=Poppins:wght@500&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="owl-c/owl.carousel.min.css">
+   <link rel="stylesheet" href="owl-c/owl.theme.default.min.css">
+
+   <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-251345111-2');
+      gtag('config', 'AW-10891186410');
+   </script>
+   <!-- Google tag (gtag.js) -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10891186410"></script>
+   <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'AW-10891186410'); </script>
+   <style>
+      .bg-golden {
+         background-color: rgb(0, 0, 0);
+         /* You can replace 'goldenrod' with your desired golden color */
+      }
+
+      .popupform h4 {
+         font-size: 19px;
+         color: #fff;
+         text-align: center !important;
+         display: block;
+         width: 100%;
+      }
+
+      /* .iconList ul {list-style: none;}
+.iconList ul li {
+  display: inline;
+  float: left;
+  margin:0px;
+  text-align: center;
+  height: 150px;
+  width: 200px;
+}
+
+.iconList ul li img {
+  margin:5px auto;
+  display:block;
+  height: 97px;
+  width: 97px;
+    -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+
+.iconList ul li a {
+  display: block;
+  opacity: 0.50;
+  text-decoration: none;
+  letter-spacing: 0px;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  font-family: 'Droid Arabic Naskh', Tahoma;
+  color: black;
+  line-height: 25px;
+  font-size: 18px;
+} */
+      .avatar {
+         width: 80px;
+         height: 80px;
+         border-radius: 50%;
+         display: block;
+         margin-top: 40px;
+         margin-left: 40px;
+         margin-right: 40px;
+         margin-bottom: 20px;
+         padding: 10px;
+      }
+
+      a {
+         text-decoration: none;
+         letter-spacing: 0px;
+         -webkit-transition: all 0.2s linear;
+         -moz-transition: all 0.2s linear;
+         transition: all 0.2s linear;
+         font-family: 'Droid Arabic Naskh', Tahoma;
+         color: #6f6f6e;
+         font-size: 12px;
+      }
+
+      */ ul {
+         margin: px;
+      }
+
+      li {
+         float: left;
+         display: flex;
+         margin: 5px
+      }
+
+      .font-size12 {
+         font-size: 12px;
+      }
+
+      .navbar {
+         z-index: 1000;
+      }
+
+      .nav-item .nav-link {
+         font-size: 13px;
+         margin: 5px;
+         color: #fff !important;
+      }
+
+      .navbar-toggler-icon {
+         background-color: #d3b843;
+         /* Replace 'your-desired-color' with the color you want */
+      }
+   </style>
+
+   <div class="right-buttion" id='backToTop'>
+      <a href="#"><img src="images/buttion-s.jpg" alt="Enquire now for property"></a>
+   </div>
+</head>
+
+<body>
+   <nav class="navbar navbar-expand-lg navbar-light bg-golden">
+      <div class="container">
+         <!-- <h4 style="color: #d3b843; font-weight: bold; font-size: 30px;">Elan</h4> -->
+         <img src="elan-img/elan-logo.png" class="img-fluid" alt="Responsive image" style="
+         height: 35px;
+         width: 35;
+     ">
+         <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+               <li class="nav-item active">
+                  <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#amenities">Amenities</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#highlights">Highlights</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#price_list">Price List</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#ROI">Return on Investment</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#location">Location
+
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#contact_us">Contact Us
+
+                  </a>
+               </li>
+            </ul>
+            <button style="font-size:20px;border-radius: 10px;background-color: #d3b843;color: #fff;"><i
+                  class="fa fa-phone"> 9077390773</i></button>
+            <button style="font-size:20px;border-radius: 10px;background-color: #d3b843;color: #fff;"><i
+                  class="fa fa-phone"> 9090880000</i></button>
+         </div>
+      </div>
+   </nav>
+   
+         <?php
+if(isset($_POST['submit'])){
+  $name=$_POST['name'];
+  $email=$_POST['email'];
+  $number=$_POST['number'];
+
+  $to='Sales@elanlaunch.com';
+  $subject='Form submission';
+  $message="Name: ".$name."\n"."Email: ".$email."\n"."Number: ".$number;
+  $headers="From: ".$email;
+
+  if(mail($to, $subject, $message, $headers)){
+    echo "<h1 style='color:black;font-size:14px;'>Sent Successfully! Thank You"." ".$name.", We will contact you sortly!</h1>";
+  }
+  else{
+    echo "Something Went Wrong!";
+  }
+}
+?>
+   
+   
+   <section class="section hiddenmob"
+      style="background: url('images/desktop-banner.png') center center;overflow: hidden;" id="SECTION1">
+      <div class="container-2">
+         <div class="row">
+            <div class="col-xs-12 col-md-9 p-0 header-cantt">
+               <img src="elan-img/Mobile-Bannner.png" alt="" class="img-fluid hiddendasktop">
+            </div>
+         </div>
+         <div class="row align-items-center">
+            <div class="col-lg-8 col-md-7">
+            </div>
+            <!--end col-->
+            <div class="col-lg-4 col-md-5 mt-2 mt-sm-0 pt-2 pt-sm-0" id="form">
+               <div class="bg-white  shadow formstyle">
+                  <h5 class="text-capitalize formhead text-white">Enquire Now</h5>
+                        
+                  
+                  
+                  <form method="post" name="form">
+                     <div class="row mt-4">
+                        <div class="col-lg-12">
+                           <div class="form-group mb-4">
+                            <input name="name" type="text" class="form-control" placeholder="Enter Name"
+                                 required>
+                           </div>
+                        </div>
+                        <!--end col-->
+                        <div class="col-lg-12">
+                           <div class="form-group mb-4">
+                              <input type="email" class="form-control"
+                                 placeholder="Enter Email" name="email" required>
+                           </div>
+                        </div>
+                        <!--end col-->
+                        <div class="col-md-12">
+                           <div class="form-group mb-4">
+ <input name="number" type="number" class="form-control" placeholder="Enter number"
+                                 required>
+                           </div>
+                        </div>
+                        <div class="col-md-12">
+                           <div class="form-check form-group mb-2">
+                              <input class="form-check-input" type="checkbox" name="loan_required"
+                                 value="Loan Required" checked="" data-parsley-multiple="loan_required">
+                              <label class="form-check-label text-white">Looking for a Home Loan?</label>
+                           </div>
+                        </div>
+                        <div class="col-lg-12 mb-0 testi">
+                           <p>By submitting, I agree to Times Property T&amp;C*</p>
+                        </div>
+                        <!--end col-->
+                        <!--  <div class="col-lg-12 mb-0"> -->
+                        <button class="btn bttn btn-block submit" name="submit" type="submit"
+                           style="border-radius: 0px">Submit</button>
+                        <!--   </div> -->
+                        <!--end col-->
+                     </div>
+                     <!--end row-->
+                  </form>
+                  <!--end form-->
+               </div>
+            </div>
+            <!--end col-->
+         </div>
+         <!--end row-->
+      </div>
+      <!--end container-->
+   </section>
+
+   <section>
+      <div class="container pt-5">
+
+         <div class="row bg-clr-add">
+            <div class="col-md-12 side-pad">
+               <div class="row pt-5 pb-5">
+                  <div class="col-md-12">
+                     <div class="text-heading" data-aos="fade-up" data-aos-duration="1000">
+                        <h1>Experience Luxury Elevate Sucess</h1>
+                        <p>Welcome to Elan Sector-82, Gurgoan-a visionary MArvel that goes beyond Real estate. here is
+                           Sucess is not a Destination it's a lifestyle lets explore the keys to triumph in this vibrant
+                           in this vibrant hub.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row pt-1 pb-5 side-pad">
+            <div class="col-md-4">
+               <div class="trig-div" data-aos="fade-up" data-aos-duration="1000" style="border-radius: 10px;">
+                  <img src="images/loan.png">
+                  <span class="btm-trinity"></span>
+                  <h4>Affordability</h4>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="trig-div" data-aos="fade-up" data-aos-duration="2000" style="border-radius: 10px;">
+                  <img src="images/marketing.png">
+                  <span class="btm-trinity"></span>
+                  <h4>Connectivity</h4>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="trig-div" data-aos="fade-up" data-aos-duration="3000" style="border-radius: 10px;">
+                  <img src="images/sun-umbrella.png">
+                  <span class="btm-trinity"></span>
+                  <h4>Enjoyability</h4>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="what-will-learn-m" id="amenities" style="
+         background: url('elan-img/The\ Elan\ \(6\).png');overflow: hidden;">
+      <div class="container">
+         <div class="row ">
+            <div class="col-md-12">
+               <div class="text-heading" data-aos="fade-up" data-aos-duration="800">
+                  <h1 class="text-white">Amenities</h1>
+                  <p class="text-white">The Elan provide top-notch
+                     amenities like High
+                     Speed connectivity,
+                     Security which is Beyond
+                     Standards, and Parking,
+                     ensuring a world-class living experience for residents.</p>
+               </div>
+            </div>
+         </div>
+         <div class="row pt-5 text-center">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+               <div class="amenity-div" data-aos="fade-up" data-aos-duration="2000"
+                  style="height: 250px; width: 350px;background-color: #fff;">
+                  <img src="elan-img/connected.png">
+                  <h6>High Speed connectivity</h6>
+                  <p class="font-size12">stay ahead of the curve with seamless high-speed
+                     internet that keeps you connected to possibilities
+                  </p>
+               </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+               <div class="amenity-div" data-aos="fade-up" data-aos-duration="2000"
+                  style="height: 250px; width: 350px;background-color: #fff;">
+                  <img src="elan-img/cyber-security.png">
+                  <h6>Security Beyond Standards</h6>
+                  <p class="font-size12">your success with a deserves a worry free enviroment. our 24-hour Security
+                     ensures your business is protect day and night
+                  </p>
+               </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+               <div class="amenity-div" data-aos="fade-up" data-aos-duration="2000"
+                  style="height: 250px; width: 350px;background-color: #fff;">
+                  <img src="elan-img/couch.png">
+                  <h6>Unwind in Style</h6>
+                  <p class="font-size12">from brain stroming to unwinding, our cozy lounge area provide the perfect
+                     backdrop for success</p>
+               </div>
+            </div>
+            <!-- <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+               <div class="amenity-div" data-aos="fade-up" data-aos-duration="2000">
+                  <img src="elan-img/retail.png">
+                  <h6>Retail Redefined</h6>
+                  <p class="font-size12">Discover a retail paradise that goes beyond shopping; it's an immersive journey
+                     into trendsetting boutiques and upscale showrooms.
+                  </p>
+               </div>
+            </div> -->
+            <!-- <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+               <div class="amenity-div" data-aos="fade-up" data-aos-duration="2000">
+                  <img src="elan-img/cinema-screen.png">
+                  <h6>The Premier Destination</h6>
+                  <p class="font-size12">Entertainment is redefined at our state of the art multiplex where every frame
+                     is masterpiece, and every moment captivates</p>
+               </div>
+            </div> -->
+            <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+               <div class="amenity-div" data-aos="fade-up" data-aos-duration="2000"
+                  style="height: 250px; width: 350px;background-color: #fff;">
+                  <img src="elan-img/dish.png">
+                  <h6>Culinary Symphony</h6>
+                  <p class="font-size12">Savour sucess with a diverse culinary experience at our in-house cafeteria
+                     where every meal is celebrated</p>
+               </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+               <div class="amenity-div" data-aos="fade-up" data-aos-duration="2000"
+                  style="height: 250px; width: 350px;background-color: #fff;">
+                  <img src="elan-img/sedan.png">
+                  <h6>Parking Made Easy</h6>
+                  <p class="font-size12">Ample parking ensures your clients and staff experience convenience from the
+                     moment they arrive.
+                  </p>
+               </div>
+            </div>
+            <!-- <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+               <div class="amenity-div" data-aos="fade-up" data-aos-duration="2000">
+                  <img src="elan-img/star.png">
+                  <h6>5 Star Elegence</h6>
+               </div>
+            </div> -->
+         </div>
+      </div>
+   </section>
+
+   <section class="what-will-learn-m" id="highlights" style="
+         background: url('images/gallery-122.jpg');overflow: hidden;">
+      <div class="container">
+         <div class="row ">
+            <div class="col-md-12">
+               <div class="text-heading" data-aos="fade-up" data-aos-duration="800">
+                  <h1>Highlights</h1>
+                  <p>Welcome to Elan Sector 82, Gurgaon - a visionary marvel that goes beyond real estate. Here, success
+                     is not a destination; it's a lifestyle. Let's explore the keys to triumph in this vibrant hub.
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div class="row pt-5 text-center">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+               <div class="amenity-div" data-aos="fade-up" data-aos-duration="2000"
+                  style="height: 250px; width: 350px;">
+                  <img src="elan-img/cinema-screen.png">
+                  <h6>The Premiere Destination</h6>
+                  <p class="font-size12">Entertainment redefined at our state-of-the-art Multiplex - where every frame
+                     is a masterpiece, and every moment captivates.
+                  </p>
+               </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+               <div class="amenity-div" data-aos="fade-up" data-aos-duration="2000"
+                  style="height: 250px; width: 350px;">
+                  <img src="elan-img/retail.png">
+                  <h6>Retail Redefined</h6>
+                  <p class="font-size12">Discover a retail paradise that goes beyond shopping; it's an immersive journey
+                     into trendsetting boutiques and upscale showrooms.
+                  </p>
+               </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+               <div class="amenity-div" data-aos="fade-up" data-aos-duration="2000"
+                  style="height: 250px; width: 350px;">
+                  <img src="elan-img/star.png">
+                  <h6>5 Star Elegence</h6>
+                  <p class="font-size12">Stay in opulence at our Five-Star Hotel, where luxury is not just a statement
+                     but a way of life.
+                  </p>
+               </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+               <div class="amenity-div" data-aos="fade-up" data-aos-duration="2000"
+                  style="height: 250px; width: 350px;">
+                  <img src="elan-img/dish.png">
+                  <h6>Indulge and Inspire</h6>
+                  <p class="font-size12">Transform your dining experience in our exclusive Food Court, a culinary haven
+                     where flavors meet innovation.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- price section -->
+   <section class="what-will-learn-m" id="price_list" style="
+   background: url('elan-img/The\ Elan\ \(6\).png');overflow: hidden;">
+      <div class="container">
+         <div class="row ">
+            <div class="col-md-12">
+               <div class="text-heading" data-aos="fade-up" data-aos-duration="800">
+                  <h1 class="text-white">Price List</h1>
+               </div>
+            </div>
+         </div>
+         <div class="row pt-5 text-center">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+               <div class="amenity-div" data-aos="fade-up" data-aos-duration="2000"
+                  style="height: 250px; width: 350px;background-color: #fff;">
+                  <img src="elan-img/dish.png">
+                  <h6>Food Court</h6>
+                  <h6>size 700-1200sq.ft</h6>
+                  <h6>Price Starts from</h6>
+               </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+               <div class="amenity-div" data-aos="fade-up" data-aos-duration="2000"
+                  style="height: 250px; width: 350px;background-color: #fff;">
+                  <img src="elan-img/retail.png">
+                  <h6>Retail Shops</h6>
+                  <h6>size 800-2000sq.ft</h6>
+                  <h6>On Request</h6>
+               </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+               <div class="amenity-div" data-aos="fade-up" data-aos-duration="2000"
+                  style="height: 250px; width: 350px;background-color: #fff;">
+                  <img src="elan-img/cinema-screen.png">
+                  <h6>Multiplex/Restaurents</h6>
+                  <h6>size 2000-10,000sq.ft</h6>
+                  <h6>On Request</h6>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section id="ROI">
+      <div class="container-fluid position-relative half-fluid">
+         <div class="container">
+            <div class="row">
+
+               <!-- Image -->
+               <div class="col-lg-6 position-lg-absolute right-half h-100">
+                  <div class="image">
+                     <!-- <img src="elan-img/The Elan.png" alt=""> -->
+                  </div>
+               </div>
+
+               <!-- Text -->
+               <div class="col-lg-6 py-5 pe-lg-5">
+                  <h2 class="text-roi">Return On Investment</h2>
+                  <h5 class="mb-4">Investing in Elan Sector 82 Gurgaon isn't just an investment; it's a journey into
+                     unprecedented
+                     success.
+                  </h5>
+                  <!-- <h5 class="text-muted pb-3"><i>Image right example</i></h5> -->
+                  <p>💼 Global Hub:
+                     Join the league of global firms and startups making their mark in Gurugram. Your office at Elan
+                     Sector 82 attracts success.
+                  </p>
+                  <p>🛒 Retail Revolution:
+                     In the heart of an urban population with disposable income, Gurugram's retail industry promises not
+                     just growth but exponential gains.</p>
+                  <p>
+                     🏆 Aesthetic Appeal:
+                     Beyond structures, Elan Sector 82 offers an environment that reflects refinement, modernism, and
+                     success.
+                  </p>
+                  <h5 class="mb-4 mt-4">FREQUENTLY ASKED QUESTIONS:
+                  </h5>
+                  <p>
+                     🛍 What types of retail spaces does Elan offer?
+                     From chic boutiques to high-end showrooms, Elan Sector 82 offers a diverse range of retail spaces.
+                  </p>
+                  <p>
+                     🚗 Is parking available for customers and clients?
+                     Absolutely! We ensure ample parking for the convenience of everyone visiting your business.
+                  </p>
+                  <p>
+                     📆 What are the conditions for retail leases?
+                     Flexibility is our forte. While rental lengths may vary, our lease options are tailored to meet
+                     your unique needs.
+                  </p>
+                  <p>INVEST IN SUCCESS, INVEST IN ELAN SECTOR 82 - WHERE YOUR SUCCESS STORY BEGINS. 🚀🏢🌟</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section id="location">
+      <div class="container pt-5">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="text-heading" data-aos="fade-up" data-aos-duration="1000">
+                  <h1>Location</h1>
+                  <p>The Elan is located in Sector 82 Gurgoan, Haryana. This prime location affords it excellent
+                     connectivity to all necessary amenities as well as major commercial and residential hubs.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container" style="overflow: hidden;">
+         <div class="row mt-5">
+            <div class="col-lg-6 wherelist text-center" data-aos="fade-up" data-aos-duration="1000">
+               <img src="elan-img/The Elan.png" style="width: 100%;" class="mapimg">
+            </div>
+            <div class="col-lg-6 wherelist text-center" data-aos="fade-up" data-aos-duration="1000">
+               <div class="map_location">
+                  <iframe
+                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3565618.8707787953!2d73.3975923314479!3d29.22209323341579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d3d502adb8651%3A0xd50af7de3baf7ed4!2sElan%2082%20Mall!5e0!3m2!1sen!2sin!4v1702278112485!5m2!1sen!2sin"
+                     width="100%" height="605" style="border:0;" class="mapimg" allowfullscreen="" loading="lazy"
+                     referrerpolicy="no-referrer-when-downgrade"></iframe>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <center>
+      <div class="container" id="contact_us">
+         <div class="col-lg-8 col-md-8 col-sm-12" id="form" style="margin-top: 80px;">
+            <div class="bg-white  shadow formstyle">
+               <h5 class="text-capitalize formhead text-white" style="text-align: center;">Contact Us</h5>
+               <h5 class="text-capitalize formhead text-white" style="text-align: center;">Interested? Schedule A Free
+                  Site Visit</h5>
+               <h5 class="text-capitalize formhead text-white" style="text-align: center;">Phone No: 9077390773 ;
+                  9090880000</h5>
+               <h5 class="text-white emails" style="text-align: center;">Email:Sale@elanlunch.com</h5>
+
+              <!-- <form role="form" action="thank-you.html" method="Post"
+                  name="leadforms" autocomplete="off" id="leadforms" data-parsley-validate="">
+                  <div class="row mt-4">
+                     <div class="col-lg-12">
+                        <div class="form-group mb-4">
+                           <input type="hidden" name="page_url" value="<?=$pageurl?>">
+                           <input type="hidden" name="sources" value="Mahagun Medalleo">
+
+                           <input name="name" id="name3" type="text" class="form-control" placeholder="Enter Name"
+                              required>
+                        </div>
+                     </div>
+                     <div class="col-lg-12">
+                        <div class="form-group mb-4">
+
+                           <input type="email" id="email3" class="form-control" data-parsley-trigger="change"
+                              required="" title="Incorrect Email" placeholder="Enter Email" name="email" required>
+                        </div>
+                     </div>
+                     <div class="col-md-12">
+                        <div class="form-group mb-4">
+
+                           <input name="phone" id="number" type="tel" minlength="10" maxlength="10"
+                              data-parsley-trigger="keyup" data-parsley-validation-threshold="1"
+                              data-parsley-debounce="500" data-parsley-type="digits" data-parsley-minlength="10"
+                              data-parsley-maxlength="10" class="form-control" placeholder="Enter Phone Number"
+                              required>
+                        </div>
+                     </div>
+                     <div class="col-md-12">
+                        <div class="form-check form-group mb-2">
+                           <input class="form-check-input" type="checkbox" id="check1" name="loan_required"
+                              value="Loan Required" checked="" data-parsley-multiple="loan_required">
+                           <label class="form-check-label text-white">Looking for a Home Loan?</label>
+                        </div>
+                     </div>
+                     <div class="col-lg-12 mb-0 testi">
+                        <p>By submitting, I agree to Times Property T&amp;C*</p>
+                     </div>
+                     <button class="btn bttn btn-block submit" name="submit" type="submit"
+                        style="border-radius: 0px;">Submit</button>
+                    
+                  </div>
+                 
+               </form>-->
+               <!--end form-->
+            </div>
+         </div>
+      </div>
+   </center>
+   <section>
+      <div class="container paddingbottom">
+         <div class="container pt-5">
+
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="text-heading" data-aos="fade-up" data-aos-duration="1000">
+                     <h1 style="font-size: 20px;">Disclaimer</h1>
+                     <p style="font-size: 12px;">We are an authorised marketing partner for this project. Provided
+                        content is given by respective owners and this website and content is for information purpose
+                        only and it does not constitute any offer to avail for any services. Prices mentioned are
+                        subject to change without prior notice and properties mentioned are subject to availability. You
+                        can expect a call, SMS or emails on details registered with us.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+   </section>
+
+   <footer class="footer-copyrite" style="overflow: hidden;">
+      <div class="container">
+         <div class="footer-copy text-center"
+            style="font-family: 'Poppins', sans-serif;font-weight: 500;font-size: 14px;color: #ffff;">©&nbsp;Elan
+            Limited 2023 | All Rights Reserved </div>
+         <div class="clearfix"></div>
+      </div>
+   </footer>
+   <!-- Optional JavaScript -->
+   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <!-- jQuery library -->
+   <script src="owl-c/jquery-3.6.4.min.js"></script>
+   <script src="owl-c/owl.carousel.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+   <!-- Latest compiled JavaScript -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   <link href="https://parsleyjs.org/src/parsley.css" rel="stylesheet">
+   <script src="js/jquery-3.5.1.slim.min.js"></script>
+   <script src="bootstrap/js/bootstrap.min.js"></script>
+   <script src="js/magnific-popup.min.js"></script>
+   <script src="owl-c/jquery-3.6.4.min.js"></script>
+   <script src="owl-c/owl.carousel.min.js"></script>
+   <script src="https://parsleyjs.org/dist/parsley.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+      AOS.init();
+   </script>
+   <script>
+      (function ($) {
+         'use strict';
+         jQuery(document).on('ready', function () {
+            $('a.page-scroll').on('click', function (e) {
+               var anchor = $(this);
+               $('html, body').stop().animate({
+                  scrollTop: $(anchor.attr('href')).offset().top - 50
+               }, 1500);
+               e.preventDefault();
+            });
+         });
+      });
+   </script>
+   <script>
+      // video popup init
+      if ($('.has-video-popup').length > 0) {
+         $('.has-video-popup').magnificPopup({
+            type: 'iframe',
+            mainClass: 'mfp-fade',
+            removalDelay: 160,
+            preloader: false,
+            fixedContentPos: false
+         });
+      }
+      // smooth scroling
+   </script>
+   <!--<script>
+      $('#myButton').click(function () {
+         $('html, body').animate({
+            scrollTop: $("#leadforms").offset().top
+         }, 3000);
+      });
+      $(document).ready(function () {
+         $('#leadforms').parsley();
+      });
+   </script>-->
+   <script>
+      $('.customer-logos').slick({
+         slidesToShow: 4,
+         slidesToScroll: 1,
+         autoplay: true,
+         autoplaySpeed: 1500,
+         arrows: false,
+         dots: false,
+         pauseOnHover: true,
+         responsive: [{
+            breakpoint: 768,
+            settings: {
+               slidesToShow: 1
+            }
+         }, {
+            breakpoint: 520,
+            settings: {
+               slidesToShow: 1
+            }
+         }]
+      });
+
+
+      $('.gallry-logos').slick({
+         slidesToShow: 4,
+         slidesToScroll: 1,
+         autoplay: true,
+         autoplaySpeed: 1500,
+         arrows: true,
+         // dots: true,
+         pauseOnHover: true,
+         // Number:0,
+         responsive: [{
+            breakpoint: 768,
+            settings: {
+               slidesToShow: 1
+            }
+         }, {
+            breakpoint: 520,
+            settings: {
+               slidesToShow: 1
+            }
+         }]
+      });
+      $('.gallry-logos2').slick({
+         slidesToShow: 3,
+         slidesToScroll: 1,
+         autoplay: true,
+         autoplaySpeed: 1500,
+         arrows: true,
+         // dots: true,
+         pauseOnHover: true,
+         // Number:0,
+         responsive: [{
+            breakpoint: 768,
+            settings: {
+               slidesToShow: 1
+            }
+         }, {
+            breakpoint: 520,
+            settings: {
+               slidesToShow: 1
+            }
+         }]
+      });
+
+      $(document).ready(function () {
+         $("#myModal").modal('hide');
+         setTimeout(function () { $('#myModal').modal('show'); }, 14000);
+      });
+   </script>
+   <script>
+      window.onscroll = function () {
+         if (pageYOffset >= 200) {
+            document.getElementById('backToTop').style.visibility = "visible";
+         } else {
+            document.getElementById('backToTop').style.visibility = "hidden";
+         }
+      };
+
+      document.getElementById('backToTop').onclick = function () {
+         scrollTo(document.body, 0, 0);
+      }
+
+      function scrollTo(element, to, duration) {
+         var start = element.scrollTop,
+            change = to - start,
+            currentTime = 0,
+            increment = 20;
+
+         var animateScroll = function () {
+            currentTime += increment;
+            var val = Math.easeInOutQuad(currentTime, start, change, duration);
+            element.scrollTop = val;
+            if (currentTime < duration) {
+               setTimeout(animateScroll, increment);
+            }
+         };
+         animateScroll();
+      }
+
+      //t = current time
+      //b = start value
+      //c = change in value
+      //d = duration
+      Math.easeInOutQuad = function (t, b, c, d) {
+         t /= d / 2;
+         if (t < 1) return c / 2 * t * t + b;
+         t--;
+         return -c / 2 * (t * (t - 2) - 1) + b;
+      };
+   </script>
+   <script type="text/javascript">
+      $('.owl-carousel').owlCarousel({
+         loop: true,
+         margin: 10,
+         nav: true,
+         autoplay: true,
+         autoplayTimeout: 2000,
+         autoplayHoverPause: true,
+         responsive: {
+            0: {
+               items: 1
+            },
+            600: {
+               items: 2
+            },
+            1000: {
+               items: 3
+            }
+         }
+      })
+   </script>
+   <script type="text/javascript">
+      $(document).ready(function () {
+         $(".owl-carousel").owlCarousel();
+      });
+   </script>
+   <script type="text/javascript">
+      $('.owl-carousel').owlCarousel({
+         loop: true,
+         margin: 10,
+         nav: true,
+         autoplay: true,
+         autoplayTimeout: 2000,
+         autoplayHoverPause: true,
+         responsive: {
+            0: {
+               items: 1
+            },
+            600: {
+               items: 1
+            },
+            1000: {
+               items: 1
+            }
+         }
+      })
+   </script>
+</body>
+
+</html>
