@@ -210,7 +210,10 @@ if(isset($_POST['submit'])){
   $headers="From: ".$email;
 
   if(mail($to, $subject, $message, $headers)){
-    echo "<h1 style='color:black;font-size:14px;'>Sent Successfully! Thank You"." ".$name.", We will contact you sortly!</h1>";
+   //  echo "<h1 style='color:black;font-size:14px;'>Sent Successfully! Thank You"." ".$name.", We will contact you sortly!</h1>";
+    // Echo JavaScript for redirection
+    echo "<script>window.location.href = 'thank-you.html';</script>";
+    exit(); // Make sure to exit to prevent further execution of the script
   }
   else{
     echo "Something Went Wrong!";
